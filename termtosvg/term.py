@@ -364,4 +364,4 @@ def _get_xresources():
     if data is None:
         return None
 
-    return data.value.decode('utf-8')
+    return data.value
